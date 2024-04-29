@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       }
   
-      // Calculate the weighted average of the mixed color
+      // Calculate average of the mixed color
       for (let i = 0; i < 3; i++) {
         mixedColor[i] = Math.round(mixedColor[i] / totalColors); // Calculate average
       }
