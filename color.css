@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('gray-blue-background.jpeg');
+    background-size: cover;
+}
+
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+    font-weight: 900;
+    font-style: normal;
+  }
+  p {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+  #canvas-container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  #canvas {
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+  #result {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    color: white;
+   
+  }
+  
+  .colors {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, white, #cdcdcd); /* Gradient background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow */
+    padding: 10px 20px; /* Padding */
+    margin: 10px; /* Margin */
+  }
+ 
+
+
+  .draggable {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+ 
+  .red { background-color: red; }
+  .green { background-color: green; }
+  .blue { background-color: blue; }
+  .yellow { background-color: yellow; }
+  .orange { background-color: orange; }
+  .purple { background-color: purple; }
+  .black { background-color: black; }
+  .white { background-color: white; }
+  
